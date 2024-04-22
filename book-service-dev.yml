@@ -1,15 +1,1 @@
 
-#  sql:
-#    init:
-#      mode: always 
-
-      # JPA (Java Persistence API) configuration for Hibernate
-    
-# Management endpoint configuration
-management:
-  endpoints:
-    web:
-      # Exposing all endpoints
-      exposure:
-        include: "*"
-
